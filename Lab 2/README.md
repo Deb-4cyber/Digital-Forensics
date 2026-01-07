@@ -3,7 +3,7 @@
 ## 📝 Overview
 This project explores the mechanics of a **Repackaging Attack** on the Android platform. The primary objective was to gain hands-on experience in reverse-engineering a legitimate application, injecting a malicious payload, and re-signing the application for deployment. This lab highlights the security risks associated with third-party app markets and the critical importance of code integrity in the mobile software supply chain.
 
-## ⚙️ Methodology 
+## ⚙️ Methodology
 The investigation followed a systematic reverse-engineering and exploitation workflow:
 
 - **Decompilation**: Disassembled the target APK to retrieve the human-readable Smali code and resource files.
@@ -34,7 +34,7 @@ The investigation followed a systematic reverse-engineering and exploitation wor
 - **Payload Success**: Upon triggering the injected code, the application successfully performed the unauthorized deletion of contacts within the isolated VM.
 - **Detection Gap**: Demonstrated that without verifying the developer's original certificate, it is nearly impossible for an end-user to distinguish between a legitimate and a weaponized application.
 
-## 🖼️ Screenshots / Diagrams
+## 🖼️ Screenshots 
 > *Note: All screenshots and findings detailed below were captured during the exploitation phase in the SEED Lab environment.*
 
 ### Evidence Figure 1: Decompilation of the target APK using APKTool.
