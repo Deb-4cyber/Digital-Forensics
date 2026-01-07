@@ -10,9 +10,9 @@ A high-performance suite of **Forensic Investigative Engines** designed to trans
 
 | Project | Role | Industrial Value |
 | :--- | :--- | :--- |
-| **[Autopsy](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%201)** | **Artifact Triage** | Reconstructs the 'Chain of Events' and mitigates anti-forensic data deletion.|
-| **[App Repackaging](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%202)** | **Reverse Engineering** | Neutralizes mobile supply-chain threats through deep-code Smali injection analysis.  |
-| **[Memory Forensics](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%203)** | **Memory Triage** | Resolves "Fileless" adversarial persistence via VAD tree and process family reconstruction.|
+| **[![Autopsy](https://img.shields.io/badge/Lab_1-Autopsy-red?style=flat-square)](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%201)** | **Artifact Triage** | Reconstructs the 'Chain of Events' and mitigates anti-forensic data deletion.|
+| **[![Repackaging](https://img.shields.io/badge/Lab_2-App_Repackaging-blue?style=flat-square)](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%202)** | **Reverse Engineering** | Neutralizes mobile supply-chain threats through deep-code Smali injection analysis.  |
+| **[![Memory](https://img.shields.io/badge/Lab_3-Memory_Forensics-green?style=flat-square)](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%203)** | **Memory Triage** | Resolves "Fileless" adversarial persistence via VAD tree and process family reconstruction.|
 
 ---
 
