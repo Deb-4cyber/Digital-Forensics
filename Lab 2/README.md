@@ -48,18 +48,9 @@ The investigation followed a systematic reverse-engineering and exploitation wor
 
 ### Evidence Figure 4: The repackaged app running on the Android VM.
 <img width="500" height="400" alt="5c" src="https://github.com/user-attachments/assets/0134589d-bbc8-4cd5-8e43-86e91c3cdf02" />
+<img width="500" height="400" alt="5d" src="https://github.com/user-attachments/assets/b246d366-9c04-4bc3-bcd6-9545d367218f" />
 
 ## 💡 Challenges & Lessons Learned
 - **Code Integrity**: Gained a deep understanding of Android’s signature requirement and how it can be bypassed if users download from untrusted sources.
 - **Supply Chain Risk**: Witnessed how easily popular applications can be weaponized to perform background attacks.
 - **Evidence Collection**: Practiced documenting the full lifecycle of an exploit, from reverse engineering to execution.
-
-## 📂 Repository Structure
-```text
-├── Tools/
-│   └── setup_commands.sh            # ☁️🔐 Commands for APKTool and Signing
-├── Repackaging_Documentation/       # Technical notes and Smali logic
-│   ├── injection_point.txt          # Details on the code hook location
-│   └── malicious_logic_summary.md   # Explanation of payload behavior
-├── Screenshots/                     # Exploitation visuals
-└── README.md                        # Investigation summary 🕵️
