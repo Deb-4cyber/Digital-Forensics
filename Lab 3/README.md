@@ -1,4 +1,4 @@
-# 📌 Memory Forensics: Hybrid Volatility Investigation
+# 📌 Windows Memory Forensics (Volatility) 
 
 ## 📝 Overview
 This lab analyzes a Windows memory dump (`evilprofessor.vmem`) to reconstruct system activity. I employed a hybrid workflow, using **Volatility 3** for initial process triage and **Volatility 2** for granular hierarchy mapping to identify service origins and parent-child relationships.
