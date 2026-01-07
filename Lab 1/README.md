@@ -1,7 +1,7 @@
 # 📌 Digital Forensic Investigation: The "Lone Wolf" Scenario
 
 ## 📝 Overview
-This project demonstrates a comprehensive digital forensic analysis conducted as part of an academic lab exercise. The investigation centers on the "Lone Wolf" training scenario, where the primary objective was to analyze a suspect's digital artifacts to uncover plans for a potential mass shooting event. By utilizing industry-standard tools, the investigation successfully recovered deleted files, search history, and logistical planning documents that established the suspect's intent and escape routes.
+This project demonstrates a comprehensive digital forensic analysis conducted as part of an academic lab exercise. The investigation centers on the "Lone Wolf" training scenario, where the primary objective was to analyze a suspect's digital artifacts to uncover plans for a potential mass shooting event. By utilizing industry-standard tool (Autopsy), the investigation successfully recovered deleted files, search history, and logistical planning documents that established the suspect's intent and escape routes.
 
 ## ⚙️ Methodology / Approach
 The investigation followed a rigorous forensic workflow to ensure data integrity and legal admissibility:
@@ -18,7 +18,7 @@ The investigation followed a rigorous forensic workflow to ensure data integrity
 - **Write Blocker**: Utilized during initial data capture to prevent accidental modification of evidence.
 
 ## 💻 Implementation / Steps
-1.  **Environment Setup**: Installed the Autopsy forensic suite and prepared the Lone Wolf scenario data source.
+1.  **Environment Setup**: Installed the Autopsy forensic tool and prepared the Lone Wolf scenario data source.
 2.  **Ingestion & Mapping**: Loaded the disk images into Autopsy and mapped out the various partitions and file systems.
 3.  **Targeted Desktop Analysis**: Navigated to the directory `/img_LoneWolf.E01/Vol_vol7/Users/jcloudy/Desktop` to retrieve primary evidence.
 4.  **Document Recovery**: Identified key evidence files including `The Cloudy Manifesto.docx`, `Planning.docx`, and `Cloudy thoughts.docx`.
