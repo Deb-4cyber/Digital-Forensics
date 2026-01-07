@@ -1,4 +1,4 @@
-# 📌 Digital Forensic Investigation: The "Lone Wolf" Scenario
+# 📌 Autopsy Lab: The "Lone Wolf" Scenario
 
 ## 📝 Overview
 This project demonstrates a comprehensive digital forensic analysis conducted as part of an academic lab exercise. The investigation centers on the "Lone Wolf" training scenario, where the primary objective was to analyze a suspect's digital artifacts to uncover plans for a potential mass shooting event. By utilizing industry-standard tool (Autopsy), the investigation successfully recovered deleted files, search history, and logistical planning documents that established the suspect's intent and escape routes.
