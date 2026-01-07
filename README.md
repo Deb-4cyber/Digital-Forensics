@@ -26,7 +26,18 @@ A high-performance suite of **Forensic Investigative Engines** designed to trans
 
 ---
 
-### 🔧 Technical Stack
+## 📁 Repository Structure
+```text
+.
+├── Lab 1/    # Disk Forensics: Timeline Reconstruction & Evidence Recovery
+├── Lab 2/    # Mobile App Security: Reverse Engineering & Smali Injection Analysis
+├── Lab 3/    # Memory Forensics: Resolving Volatile family trees & PS Scanning
+└── README.md # Portfolio Landing Page & DFIR Skills Matrix
+
+```
+---
+
+ ### 🔧 Technical Stack
 
 - **Forensic Tools:** Volatility 2.6.1, Volatility 3, Autopsy, The Sleuth Kit.
 
@@ -35,13 +46,3 @@ A high-performance suite of **Forensic Investigative Engines** designed to trans
 - **Environments:** Kali Linux (Forensic Environment), Windows Kernel Debugging.
 
 - **Competencies:** PID Lineage Tracking, APK Repackaging, Artifact Triage and File Carving.
-
----
-
-## 📁 Repository Structure
-```text
-.
-├── Lab 1/    # Disk Forensics: Timeline Reconstruction & Evidence Recovery
-├── Lab 2/    # Mobile App Security: Reverse Engineering & Smali Injection Analysis
-├── Lab 3/    # Memory Forensics: Resolving Volatile family trees & PS Scanning
-└── README.md # Portfolio Landing Page & DFIR Skills Matrix
