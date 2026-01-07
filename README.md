@@ -8,9 +8,9 @@ A high-performance suite of **Forensic Investigative Engines** designed to trans
 
 | Project | Role | Industrial Value |
 | :--- | :--- | :--- |
-| **[Autopsy](https://github.com/Deb-4cyber/Memory-Forensics/tree/main/lab%201)** | **Artifact Triage** | Resolves "Fileless" adversarial persistence via VAD tree and process family reconstruction. |
-| **[App Repackaging](https://github.com/Deb-4cyber/Network-Security/tree/main/lab%202)** | **Reverse Engineering** | Reconstructs the 'Chain of Events' and mitigates anti-forensic data deletion. |
-| **[Memory Forensics](https://github.com/Deb-4cyber/Network-Security/tree/main/lab%203)** | **Memory Triage** | Neutralizes mobile supply-chain threats through deep-code Smali injection analysis. |
+| **[Autopsy](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%201)** | **Artifact Triage** | Resolves "Fileless" adversarial persistence via VAD tree and process family reconstruction. |
+| **[App Repackaging](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%202)** | **Reverse Engineering** | Reconstructs the 'Chain of Events' and mitigates anti-forensic data deletion. |
+| **[Memory Forensics](https://github.com/Deb-4cyber/Digital-Forensics/tree/main/Lab%203)** | **Memory Triage** | Neutralizes mobile supply-chain threats through deep-code Smali injection analysis. |
 
 ---
 
