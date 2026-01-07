@@ -48,7 +48,7 @@ The investigation followed a systematic reverse-engineering and exploitation wor
 
 ### Evidence Figure 4: The repackaged app running on the Android VM.
 <img width="300" height="200" alt="5c" src="https://github.com/user-attachments/assets/0134589d-bbc8-4cd5-8e43-86e91c3cdf02" />
-<img width="400" height="300" alt="5d" src="https://github.com/user-attachments/assets/b246d366-9c04-4bc3-bcd6-9545d367218f" />
+<img width="300" height="200" alt="5d" src="https://github.com/user-attachments/assets/b246d366-9c04-4bc3-bcd6-9545d367218f" />
 
 ## 💡 Challenges & Lessons Learned
 - **Code Integrity**: Gained a deep understanding of Android’s signature requirement and how it can be bypassed if users download from untrusted sources.
