@@ -1,12 +1,10 @@
-# Android App Repackaging Attack Lab
+# 📌 Android App Repackaging Attack Lab
 
 ## 📝 Overview
 This project explores the mechanics of a **Repackaging Attack** on the Android platform. The primary objective was to gain hands-on experience in reverse-engineering a legitimate application, injecting a malicious payload, and re-signing the application for deployment. This lab highlights the security risks associated with third-party app markets and the critical importance of code integrity in the mobile software supply chain.
 
-## ⚙️ Methodology / Approach
+## ⚙️ Methodology 
 The investigation followed a systematic reverse-engineering and exploitation workflow:
-
-
 
 - **Decompilation**: Disassembled the target APK to retrieve the human-readable Smali code and resource files.
 - **Malicious Code Injection**: Integrated a specific Smali hook (`MaliciousCode.smali`) designed to trigger an unauthorized action (deleting system contacts).
@@ -21,7 +19,7 @@ The investigation followed a systematic reverse-engineering and exploitation wor
 - **SEED Ubuntu 16.04 VM**: The attack environment for reverse engineering.
 - **Android 7.1 VM**: The target environment for deploying and testing the repackaged app.
 
-## 💻 Implementation / Steps
+## 💻 Implementation 
 1. **Unpacking**: Used `apktool d RepackagingLab.apk` to extract the app's internal resources and Smali code.
 2. **Identifying the Entry Point**: Analyzed the Smali files to find a suitable location (hook) to trigger the malicious logic.
 3. **Payload Injection**: Inserted the `MaliciousCode.smali` logic into the app directory and added the necessary `invoke` command to the target class.
@@ -40,16 +38,16 @@ The investigation followed a systematic reverse-engineering and exploitation wor
 > *Note: All screenshots and findings detailed below were captured during the exploitation phase in the SEED Lab environment.*
 
 ### Evidence Figure 1: Decompilation of the target APK using APKTool.
-[Insert Screenshot showing APKTool terminal output]
+<img width="500" height="400" alt="2a" src="https://github.com/user-attachments/assets/a4797ccc-7996-4351-94b1-0db9759a4a9f" />
 
 ### Evidence Figure 2: The injected Smali code hook within the application logic.
-[Insert Screenshot of the Smali code snippet showing the malicious invoke command]
+<img width="500" height="400" alt="3b" src="https://github.com/user-attachments/assets/46d184a0-e1fb-43fe-a128-d5f5d9d482ec" />
 
 ### Evidence Figure 3: Verification of the signed malicious APK.
-[Insert Screenshot showing Jarsigner verification success]
+<img width="500" height="400" alt="4d" src="https://github.com/user-attachments/assets/7e483951-8f70-4275-969e-cfe5107bb4b4" />
 
 ### Evidence Figure 4: The repackaged app running on the Android VM.
-[Insert Screenshot of the Android VM showing the installed malicious app]
+<img width="500" height="400" alt="5c" src="https://github.com/user-attachments/assets/0134589d-bbc8-4cd5-8e43-86e91c3cdf02" />
 
 ## 💡 Challenges & Lessons Learned
 - **Code Integrity**: Gained a deep understanding of Android’s signature requirement and how it can be bypassed if users download from untrusted sources.
