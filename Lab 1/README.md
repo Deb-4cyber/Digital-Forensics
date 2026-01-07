@@ -3,7 +3,7 @@
 ## 📝 Overview
 This project demonstrates a comprehensive digital forensic analysis conducted as part of an academic lab exercise. The investigation centers on the "Lone Wolf" training scenario, where the primary objective was to analyze a suspect's digital artifacts to uncover plans for a potential mass shooting event. By utilizing industry-standard tool (Autopsy), the investigation successfully recovered deleted files, search history, and logistical planning documents that established the suspect's intent and escape routes.
 
-## ⚙️ Methodology / Approach
+## ⚙️ Methodology 
 The investigation followed a rigorous forensic workflow to ensure data integrity and legal admissibility:
 - **Data Acquisition**: Captured a complete forensic disk image (`img_LoneWolf.E01`) of the suspect's laptop using FTK Imager.
 - **Integrity Verification**: Utilized cryptographic hashing (MD5/SHA1) to verify that the forensic images remained untampered throughout the analysis.
@@ -17,7 +17,7 @@ The investigation followed a rigorous forensic workflow to ensure data integrity
 - **Forensic File Formats**: Worked with `.E01` (Expert Witness Format) disk images.
 - **Write Blocker**: Utilized during initial data capture to prevent accidental modification of evidence.
 
-## 💻 Implementation / Steps
+## 💻 Implementation 
 1.  **Environment Setup**: Installed the Autopsy forensic tool and prepared the Lone Wolf scenario data source.
 2.  **Ingestion & Mapping**: Loaded the disk images into Autopsy and mapped out the various partitions and file systems.
 3.  **Targeted Desktop Analysis**: Navigated to the directory `/img_LoneWolf.E01/Vol_vol7/Users/jcloudy/Desktop` to retrieve primary evidence.
@@ -32,7 +32,7 @@ The investigation followed a rigorous forensic workflow to ensure data integrity
 - **Evidence of Intent**: The "Cloudy Manifesto" and browser searches for "where to buy guns" and "smuggling cash" provided clear evidence of premeditation.
 - **Mental State**: Analysis of the suspect's desktop showed a preoccupation with mental health quotes and firearms in the days leading up to the event.
 
-## 🖼️ Screenshots / Diagrams
+## 🖼️ Screenshots 
 > *Note: All screenshots and findings detailed below are captured from the Autopsy Forensic Tool.*
 
 ### Evidence Figure 1: Proof of airline ticket purchase for Washington to Bali.
