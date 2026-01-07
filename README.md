@@ -16,11 +16,11 @@ A high-performance suite of **Forensic Investigative Engines** designed to trans
 
 ## 🛠️ Industrial Forensic Strengths
 
-* **Volatile Artifact Reconstruction:** Leveraged a hybrid **Volatility 2 & 3** workflow. Successfully navigated missing VMware metadata by performing automated **PDB symbol resolution** to identify 48 active process threads.
-* **Adversarial Persistence Detection:** Utilized `pstree` to map hierarchical process family trees. Identified critical parent-child anomalies, tracing unauthorized service-spawning (e.g., verifying `sshd.exe` lineage to PID 184 and `mysqld-nt.exe` to the Service Control Manager).
-* **Forensic Timeline Recovery:** Conducted deep-sector analysis using **Autopsy** to correlate non-volatile artifacts. Specialized in recovering evidence bypassed by standard OS APIs through forensic file carving and metadata analysis.
-* **Static Binary Analysis:** Executed reverse engineering on Android binaries. Utilized `apktool` for deconstruction and manual **Smali code injection** to identify logic vulnerabilities and validate application integrity.
-* **Evidence Integrity Management:** Strict adherence to DFIR standards when handling `.vmem` and `.E01` files. Proven capability in resolving kernel offsets and memory address spaces manually when automated metadata is unavailable.
+- **Volatile Artifact Reconstruction:** Leveraged a hybrid **Volatility 2 & 3** workflow. Successfully navigated missing VMware metadata by performing automated **Symbol/PDB resolution** to identify 48 active process threads.
+- **Malicious Persistence Analysis:** Utilized `pstree` to map hierarchical process family trees. Identified critical parent-child anomalies, tracing unauthorized service-spawning (e.g., verifying `sshd.exe` lineage to PID 184 and `mysqld-nt.exe` to the Service Control Manager).
+- **Forensic Evidence Discovery:** Conducted deep-sector analysis using **Autopsy** to correlate non-volatile artifacts. Specialized in recovering system files and user activity artifacts bypassed by standard OS APIs.
+- **Static Binary Analysis:** Executed reverse engineering on Android binaries. Utilized `apktool` for deconstruction and manual **Smali code modification** to identify logic vulnerabilities and validate application integrity.
+- **Evidence Integrity Management:** Strict adherence to DFIR standards when handling `.vmem` and bit-stream images, ensuring accurate memory address space mapping even in the absence of original metadata.
 
 ---
 
